@@ -1,0 +1,41 @@
+body {
+    background-color: white;
+}
+
+#nomP {
+    font-size: 25px;
+    color : white;
+    text-shadow: 1px 1px 1px black;
+}
+
+#pj {
+    margin-left: 10px;
+    color : white;
+}
+
+#tableStats {
+    margin-left: 10px;
+    margin-right: 10px;
+    color : white;
+    text-align: center;
+    border: 3px solid crimson;
+    padding: 10px;
+}
+
+div {
+    border-radius: 10%;
+    height : 450px;
+    width : 480px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #353539;
+}
+
+
+img { 
+    margin-left: 10px;
+    height : 100px ;
+    width : 100px;
+    border-radius: 50%;
+}

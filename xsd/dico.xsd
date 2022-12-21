@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XmlSchema.xsd to edit this template
+-->
+
+<xs:schema version="1.0 "
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:dico="http://myGame/tux"
+           targetNamespace="http://myGame/tux"
+           elementFormDefault="qualified">
+    
+    
+    <!-- Racine : dictionnaire -->
+    <xs:element name="dictionnaire" type="dico:Dictionnaire"/>
+    
+    
+    <!-- Type : Dictionnaire -->
+    <xs:complexType name = "Dictionnaire">
+        <xs:sequence>
+            <xs:element name="niveaux"  type="dico:Niveaux"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    
+    <!-- Type : Niveaux -->
+    <xs:complexType name="Niveaux">
+        <xs:sequence>
+            <xs:element maxOccurs="5" name="niveau" type="dico:Niveau"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    
+    <!-- Type : Niveau -->
+    <xs:complexType name="Niveau">
+        <xs:sequence>
+            <xs:element maxOccurs="unbounded" name="mot" type="dico:Mot"/>
+        </xs:sequence>
+        <xs:attribute name="niv" type="dico:Niv" use="required"/>
+    </xs:complexType>
+    
+    
+    <!-- Type : Niv -->
+    <xs:simpleType name="Niv">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="1"/>
+            <xs:maxInclusive value="5"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    
+    <!-- Type : Mot  -->
+    <xs:simpleType name="Mot">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="([a-zA-Zéàèùç\-])+"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+</xs:schema>

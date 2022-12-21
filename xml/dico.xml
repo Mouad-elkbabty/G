@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<dictionnaire
+                xmlns="http://myGame/tux"
+                xsi:schemaLocation="http://myGame/tux ../xsd/dico.xsd"
+                xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance">
+<niveaux>            
+        <niveau niv='1'>
+            <mot>main</mot>
+            <mot>maman</mot>
+            <mot>papa</mot>
+            <mot>nez</mot>
+            <mot>jeu</mot>
+            <mot>manger</mot>
+            <mot>voir</mot>
+            <mot>dormir</mot>
+            <mot>mot</mot>
+            <mot>verbe</mot>
+            <mot>sujet</mot>
+        </niveau>
+        <niveau niv='2'>
+            <mot>doigt</mot>
+            <mot>tigre</mot>
+            <mot>gagner</mot>
+            <mot>oncle</mot>
+            <mot>tante</mot>
+            <mot>langue</mot>
+            <mot>plateau</mot>
+            <mot>écran</mot>
+            <mot>souris</mot>
+            <mot>clavier</mot>
+            <mot>flèche</mot>
+        </niveau>
+        <niveau niv='3'>
+            <mot>tableau</mot>
+            <mot>échalotte</mot>
+            <mot>brise</mot>
+            <mot>calcium</mot>
+            <mot>vitamine</mot>
+            <mot>complément</mot>
+            <mot>modifier</mot>
+            <mot>arc-en-ciel</mot>
+            <mot>accuser</mot>
+            <mot>ardente</mot>
+            <mot>absente</mot>
+        </niveau>
+        <niveau niv='4'>
+            <mot>inhibes</mot>
+            <mot>inhumer</mot>
+            <mot>insérer</mot>
+            <mot>jouxter</mot>
+            <mot>religion</mot>
+            <mot>éléphant</mot>
+            <mot>louange</mot>
+            <mot>litrons</mot>
+            <mot>lustrer</mot>
+            <mot>maximum</mot>
+            <mot>minimum</mot>
+        </niveau>
+        <niveau niv='5'>
+            <mot>parallèle</mot>
+            <mot>parallèlogramme</mot>
+            <mot>parallèlisme</mot>
+            <mot>trapéze</mot>
+            <mot>scrutai</mot>
+            <mot>orthographe</mot>
+            <mot>grammaire</mot>
+            <mot>conjugaison</mot>
+            <mot>production</mot>
+            <mot>tabasco</mot>
+            <mot>ponctuation</mot>
+        </niveau>
+    </niveaux>   
+</dictionnaire>
+
+

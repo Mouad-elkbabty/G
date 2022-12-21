@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!--
+    Document   : save_example.xml.xml
+    Created on : August 31, 2014, 3:31 PM
+    Author     : Johan Sarrazin / Céline Fouard / Nicolas Glade
+    Description:
+        Purpose of the document follows.
+-->
+
+<tux:profil
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xmlns:tux='http://myGame/tux'
+    xsi:schemaLocation='http://myGame/tux ../xsd/profil.xsd'>
+    
+    <tux:nom>Quentin</tux:nom>
+    <tux:avatar>kratos.jpg</tux:avatar>
+    <tux:anniversaire>2002-11-11</tux:anniversaire>
+    <tux:parties>
+        <tux:partie date="2022-10-03" trouvé="20%">
+            <tux:temps>30.0</tux:temps>
+            <tux:niveau niv="2">
+                <tux:mot>tigre</tux:mot>
+            </tux:niveau>
+        </tux:partie>
+    </tux:parties>
+
+</tux:profil>
